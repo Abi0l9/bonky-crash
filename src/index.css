@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --font-nabla: "Nabla", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+  --font-roboto: "Roboto", sans-serif;
+  --color-bonky-bg: #200d4c;
+  --color-bonky-bg-2: #130b3b;
+  --color-bonky-bg-3: #e25d01;
+  --color-bonky-bg-4: #ff7c00;
+  --color-bonky-bg-5: #c04e00;
+}
