@@ -8,7 +8,7 @@ import Tokenomics from "../components/Tokenomics";
 
 const Landing = () => {
   return (
-    <div className="bg-bonky-bg-1 min-h-screen px-8 md:px-[8rem] bg-bonky-bg">
+    <div className="bg-bonky-bg-1 min-h-screen px-4 md:px-[8rem] bg-bonky-bg">
       <div className="w-full flex flex-col bg-bonky-bg-2 min-h-screen py-8 md:py-[4rem]">
         <div className="flex flex-col items-center justify-center w-full">
           <Hero />

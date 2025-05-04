@@ -3,9 +3,9 @@ import BCRASH from "../../assets/bg/b-crash.png";
 
 const Intro = () => {
   return (
-    <div className="w-full px-10  text-white mt-[10rem]">
-      <div className="flex flex-row items-center bg-bonky-bg-4 p-4 py-10 rounded-md">
-        <div className="flex flex-col w-4/6">
+    <div className="w-full px-2 md:px-10  text-white mt-[10rem]">
+      <div className="flex flex-col-reverse md:flex-row items-center bg-bonky-bg-4 p-4 py-10 rounded-md">
+        <div className="flex flex-col md:w-4/6">
           <div className="mb-3">
             <p className="font-semibold text-xl font-roboto">
               Introducing Bonky Crash
@@ -22,7 +22,7 @@ const Intro = () => {
             unparalleled gaming experience.
           </p>
         </div>
-        <div className="flex flex-col w-2/6">
+        <div className="flex flex-col w-full md:w-2/6">
           <img src={BCRASH} alt="bonky crash" className="" />
         </div>
       </div>

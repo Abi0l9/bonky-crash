@@ -39,12 +39,12 @@ const cards = [
 const Plan = () => {
   return (
     <div className="">
-      <div className="w-3/4 mt-[10rem] flex flex-col mx-auto">
+      <div className="w-10/12 md:w-3/4 mt-[10rem] flex flex-col mx-auto">
         <div className="text-white font-semibold mb-3">
           OUR PLAN WITH $BONKY
         </div>
         <ResponsiveMasonry
-          columnsCountBreakPoints={{ 350: 2, 750: 2, 900: 2 }}
+          columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 2 }}
           gutterBreakpoints={{ 350: "12px", 750: "12px", 900: "12px" }}
         >
           <Masonry>

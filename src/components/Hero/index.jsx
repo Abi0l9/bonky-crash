@@ -3,7 +3,7 @@ import Card from "./Card";
 import Header from "./Header";
 const Hero = () => {
   return (
-    <div className="w-full relative min-h-screen overflow-hidden flex flex-col px-10 py-4 rounded-md">
+    <div className="w-full relative min-h-[300px] overflow-hidden flex flex-col px-2 md:px-10 py-4 rounded-md">
       <img
         src={BG}
         alt="Background"
