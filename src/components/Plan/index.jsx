@@ -43,16 +43,33 @@ const Plan = () => {
         <div className="text-white font-semibold mb-3">
           OUR PLAN WITH $BONKY
         </div>
-        <ResponsiveMasonry
-          columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 2 }}
-          gutterBreakpoints={{ 350: "12px", 750: "12px", 900: "12px" }}
-        >
-          <Masonry>
-            {cards.map((card, idx) => (
-              <Card data={card} key={idx} />
-            ))}
-          </Masonry>
-        </ResponsiveMasonry>
+        <div className="w-full hidden md:block">
+          <ResponsiveMasonry
+            columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 2 }}
+            gutterBreakpoints={{ 350: "12px", 750: "12px", 900: "12px" }}
+          >
+            <Masonry>
+              <Card data={cards[0]} />
+              <Card data={cards[1]} />
+              <Card data={cards[2]} />
+              <Card data={cards[3]} />
+            </Masonry>
+          </ResponsiveMasonry>
+        </div>
+
+        <div className="w-full block md:hidden">
+          <ResponsiveMasonry
+            columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 2 }}
+            gutterBreakpoints={{ 350: "12px", 750: "12px", 900: "12px" }}
+          >
+            <Masonry>
+              <Card data={cards[0]} />
+              <Card data={cards[2]} />
+              <Card data={cards[1]} />
+              <Card data={cards[3]} />
+            </Masonry>
+          </ResponsiveMasonry>
+        </div>
       </div>
     </div>
   );
